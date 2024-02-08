@@ -1,0 +1,33 @@
+{
+  "name": "test-subgraph-team",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@dethcrypto/eth-sdk": "^0.3.4",
+    "@dethcrypto/eth-sdk-client": "^0.1.6",
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.0",
+    "@nomicfoundation/hardhat-toolbox-viem": "^2.0.0",
+    "@nomicfoundation/hardhat-verify": "^2.0.0",
+    "@nomicfoundation/hardhat-viem": "^1.0.0",
+    "@types/chai": "^4.2.0",
+    "@types/chai-as-promised": "^7.1.6",
+    "@types/mocha": ">=9.1.0",
+    "@types/node": ">=16.0.0",
+    "chai": "^4.2.0",
+    "hardhat": "^2.19.5",
+    "hardhat-gas-reporter": "^1.0.8",
+    "solidity-coverage": "^0.8.0",
+    "ts-node": ">=8.0.0",
+    "typescript": "~5.0.4",
+    "viem": "^1.15.1"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "4",
+    "alchemy-sdk": "^3.1.2",
+    "axios": "^1.6.7",
+    "dotenv": "^16.4.1",
+    "ethers": "^6.10.0",
+    "zod": "^3.22.4"
+  }
+}
